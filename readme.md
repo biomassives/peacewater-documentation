@@ -6,7 +6,7 @@ _Warning: this project is not production ready, API might change without notice.
 
 **Nextra** is a [Next.js](https://nextjs.org) and [MDX](https://mdxjs.com) powered, no-code site generator.
 
-![](/public/demo.png)
+![](/public/peacewater.png)
 
 ## Development
 
