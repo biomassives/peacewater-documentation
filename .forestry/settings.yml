@@ -5,6 +5,10 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  path: js
+  label: Models Workspace
+  match: "**/*"
+- type: document
   path: docs
   label: document
 upload_dir: uploads
