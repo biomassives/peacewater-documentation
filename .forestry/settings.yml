@@ -7,7 +7,6 @@ sections:
 - type: document
   path: js
   label: Models Workspace
-  match: "**/*"
 - type: document
   path: docs
   label: document
