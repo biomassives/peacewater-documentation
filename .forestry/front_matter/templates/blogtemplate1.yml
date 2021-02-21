@@ -1,4 +1,58 @@
 ---
 label: blogtemplate1
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: context_tags
+  type: text
+  config:
+    required: false
+  label: context tags
+- name: project_tags
+  type: tag_list
+  default: []
+  label: project tags
+- name: research_tags
+  type: tag_list
+  default: []
+  label: research tags
+- name: topical_tags
+  type: tag_list
+  default: []
+  label: topical tags
+- name: url
+  type: text
+  config:
+    required: false
+  label: url
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: content
+- name: date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: subtext
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: subtext
