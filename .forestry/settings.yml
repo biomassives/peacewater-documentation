@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: posts
+  label: posts
+  match: "**/*"
 - type: heading
   label: thoughts on planning for short, medium and long term
 - type: document
